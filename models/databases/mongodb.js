@@ -1,4 +1,4 @@
-import { MongoClient, ObjectId, ServerApiVersion, BSON } from 'mongodb'
+import { MongoClient, ObjectId, ServerApiVersion } from 'mongodb'
 import { capitalizeWord } from './../../utils/capitalizeWord.js'
 import dotenv from 'dotenv'
 dotenv.config()
