@@ -5,8 +5,7 @@ dotenv.config()
 
 const app = express()
 const port = process.env.PORT
-
-app.use(urlencoded({ extended: true }))
+app.use(express.json())
 
 app.get('/', (req, res) => {
   res.redirect('/movies')
